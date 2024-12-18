@@ -1,0 +1,29 @@
+body {
+  padding-top: 40px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+.messages-container {
+  max-height: 70vh; /* 70% chiều cao màn hình */
+  overflow-y: auto;
+}
+.messages-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
